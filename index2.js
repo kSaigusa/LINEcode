@@ -31,10 +31,6 @@
             <input type="number" class="form-control w-100 mt-1" name="phone-number" maxlength="11">
         </div>
 
-        <label class="btn btn-secondary">
-            <input type="radio" name="number" value="1" autocomplete="off">1
-        </label>
-
         <p class="mt-3">注文商品</p>
         <div>
             <select id="select" name="item" class="form-control w-100 mt-1" maxlength="10">
