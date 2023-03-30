@@ -12,28 +12,9 @@
 </head>
 
 <body>
-    <form class="w-75 mx-auto">
+<!--ここから記述してください-->
 
-        <p class="mt-3">本当にキャンセルいたしますか？</p>
-      
-        <div>
-          <label class="btn btn-secondary">
-            <input type="radio" name="result" value="はい">はい
-          </label>
-          <label class="btn btn-secondary">
-            <input type="radio" name="result" value="いいえ">いいえ
-          </label>
-        </div>
-      
-        <p class="mt-3">理由</p>
-        <div>
-          <textarea class="form-control w-100 mt-1" name="reason"></textarea>
-        </div>
-        
-        <input type="submit" class="mt-4 btn btn-primary" value="送信">
-      
-    </form>
-
+<!--ここまで-->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.min.js" integrity="sha512-AIOTidJAcHBH2G/oZv9viEGXRqDNmfdPVPYOYKGy3fti0xIplnlgMHUGfuNRzC6FkzIo0iIxgFnr9RikFxK+sw==" crossorigin="anonymous"></script>
