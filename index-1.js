@@ -14,10 +14,16 @@ $(function () {
         var item = $("#select").children("option:selected");
         var itemText = item.text();
         var inumber = $('input[name="items-number"]').val();
+        var straw = $('input[name="straw"]:checked').val();
 
-        var msg = `受け取り日時：${date}\n氏名：${name}\n電話番号：${number}\n注文商品：${itemText}\n個数：${inumber}`;
+        if (straw == null || straw == ""){
+             var msg = `受け取り日時：${date}\n氏名：${name}\n電話番号：${number}\n注文商品：${itemText}\n個数：${inumber}`;
+        }else{
+             var msg = `受け取り日時：${date}\n氏名：${name}\n電話番号：${number}\n注文商品：${itemText}\n個数：${inumber}\nストロー：${straw}`;
+        }
         sendText(msg);
 
         return false;
     });
 });
+
